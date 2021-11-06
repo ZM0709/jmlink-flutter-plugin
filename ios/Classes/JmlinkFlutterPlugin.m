@@ -188,12 +188,12 @@ static NSString *jmlink_getParam_key = @"jmlink_getParam_key";
     }
 }
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    JMLog(@"application:openURL:options:");
-    if (self.isSetup) {
+    JMLog(@"application:openURL:options: %@", url);
+    if (self.isSetup && [url.absoluteString containsString:@"m.cheng1hu"]) {
         return [JMLinkService routeMLink:url];
     }else{
         self.cacheOpenUrl = url;
-        return YES;
+        return NO;
     }
 }
 
