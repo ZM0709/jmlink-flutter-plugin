@@ -20,6 +20,6 @@ A new Flutter plugin.
   # 使用 use_frameworks!
   s.static_framework = true
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 end
 
