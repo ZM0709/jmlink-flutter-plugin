@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'jmlink_flutter_plugin'
-  s.version          = '0.0.1'
+  s.version          = '1.2.4'
   s.summary          = 'A new Flutter plugin.'
   s.description      = <<-DESC
 A new Flutter plugin.
@@ -15,11 +15,11 @@ A new Flutter plugin.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'JMLink','0.0.1'
+  s.dependency 'JMLink','1.2.4'
 
   # 使用 use_frameworks!
   s.static_framework = true
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 end
 
