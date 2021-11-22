@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'jmlink_flutter_plugin'
-  s.version          = '0.0.1'
+  s.version          = '1.2.4'
   s.summary          = 'A new Flutter plugin.'
   s.description      = <<-DESC
 A new Flutter plugin.
